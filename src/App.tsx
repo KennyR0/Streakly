@@ -106,7 +106,7 @@ function App() {
         <nav aria-label="Navegación principal">
           <a className="nav-item active" href="#inicio" aria-current="page">
             <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M3 9.2 10 3l7 6.2v7.3a.8.8 0 0 1-.8.8h-4.4v-5H8.2v5H3.8a.8.8 0 0 1-.8-.8V9.2Z" /></svg>
-            <span>Mis hábitos</span>
+            <span>Hábitos</span>
           </a>
         </nav>
         <div className="sidebar-bottom">
