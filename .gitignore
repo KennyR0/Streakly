@@ -1,0 +1,32 @@
+node_modules/
+dist/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Build, typecheck, and test output
+coverage/
+*.tsbuildinfo
+*.log
+logs/
+test-results/
+playwright-report/
+blob-report/
+
+# Tool caches and machine-local agent files
+.vite/
+.turbo/
+.npm/
+.agents/
+.specify/
+/specs/
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.code-workspace
+.idea/
