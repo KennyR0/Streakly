@@ -125,7 +125,7 @@ function App() {
           <section className="welcome-row">
             <div>
               <p className="date-caption">{formatToday(today)}</p>
-              <h1>Haz que cada día <span>cuente.</span></h1>
+              <h1>Cada día <span>valga.</span></h1>
               <p className="welcome-subtitle">Un pequeño paso hoy. Una gran diferencia mañana.</p>
             </div>
             <button className="button button-primary add-button" onClick={() => setDialogHabit(null)}>
