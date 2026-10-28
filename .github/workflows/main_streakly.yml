@@ -1,7 +1,7 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
-name: Build and deploy Node.js app to Azure Web App - funcion2
+name: Build and deploy Node.js app to Azure Web App - streakly
 
 on:
   push:
@@ -51,15 +51,15 @@ jobs:
       - name: Login to Azure
         uses: azure/login@v2
         with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_14DCFCF4C2274317B55149F38B71D9FD }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_E5048303BB094BB5A3FEC3B16B862FAF }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_9928FCFA994148FF981ABFF4A276633C }}
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_427C5107B727497FB25B85AFCAF1D1F2 }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_495DE3898BF740148C8D959B8022E0A8 }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_6FAE9D2D89034E3DA9B21CF878E793EB }}
 
       - name: 'Deploy to Azure Web App'
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
         with:
-          app-name: 'funcion2'
+          app-name: 'streakly'
           slot-name: 'Production'
           package: .
           
